@@ -1,0 +1,56 @@
+/* Định nghĩa phần tử box */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 40px ;
+}
+
+button {
+    padding: 10px 20px;
+    border: 2px;
+    background-color: #c0725a;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    margin: 0 50px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes flash {
+0%{ 
+opacity: 1;}
+25%{
+opacity: 0.5;
+}
+50%{ 
+opacity: 0.2;
+}
+75%{
+opacity: 0.5;
+}
+100%{
+opacity: 1;
+}
+}
+
+@keyframes pulse{
+    0%{ transform: scale (1);}
+    25%{ transform: scale(1.1);}
+    50%{ transform: scale(1.2);}
+    75%{transform: scale(1.1);}
+    100%{transform: scale(1);}
+}
